@@ -8,10 +8,10 @@
   <img src="https://img.shields.io/badge/CVE--2021--4034-CVSS%207.8%20High-d97706?style=flat-square"/>
 </p>
 
-<br/>
-
-Offensive Security Engineer — vulnerability research, reverse engineering, exploit development.  
+<p align="center">
+Offensive Security Engineer — vulnerability research, reverse engineering, exploit development.<br/>
 I document the full path: from the first wrong hypothesis to the working PoC.
+</p>
 
 ---
 
