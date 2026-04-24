@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/CVE--2025--55182-CVSS%2010.0%20Critical-b91c1c?style=flat-square"/>
-  <img src="https://img.shields.io/badge/CVE--2024--51324-CVSS%209.5%20Critical-b91c1c?style=flat-square"/>
-  <img src="https://img.shields.io/badge/CVE--2021--4034-CVSS%207.8%20High-d97706?style=flat-square"/>
+  <a href="https://github.com/devianntsec/CVE-2025-55182"><img src="https://img.shields.io/badge/CVE--2025--55182-CVSS%2010.0%20Critical-b91c1c?style=flat-square"/></a>
+  <a href="https://blog.deviannt.com"><img src="https://img.shields.io/badge/CVE--2024--51324-CVSS%209.5%20Critical-b91c1c?style=flat-square"/></a>
+  <a href="https://blog.deviannt.com"><img src="https://img.shields.io/badge/CVE--2021--4034-CVSS%207.8%20High-d97706?style=flat-square"/></a>
 </p>
 
 <p align="center">
