@@ -2,13 +2,16 @@
   <img src="header.svg" alt="deviannt — Offensive Security Engineer" width="100%"/>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/CVE--2025--55182-CVSS%2010.0%20Critical-b91c1c?style=flat-square"/>
+  <img src="https://img.shields.io/badge/CVE--2024--51324-CVSS%209.5%20Critical-b91c1c?style=flat-square"/>
+  <img src="https://img.shields.io/badge/CVE--2021--4034-CVSS%207.8%20High-d97706?style=flat-square"/>
+</p>
+
 <br/>
 
-```
-Offensive Security Engineer — vulnerability research, reverse engineering, exploit development.
+Offensive Security Engineer — vulnerability research, reverse engineering, exploit development.  
 I document the full path: from the first wrong hypothesis to the working PoC.
-Santiago, Chile · me@deviannt.com
-```
 
 ---
 
@@ -17,9 +20,8 @@ Santiago, Chile · me@deviannt.com
 | ID | Severity | Summary |
 |----|----------|---------|
 | [CVE-2025-55182](https://www.cve.org/CVERecord?id=CVE-2025-55182) | **CVSS 10.0 — Critical** | RCE in React Server Components via prototype pollution in the Flight protocol. Unauthenticated, single-request, deterministic. |
-| [CVE-2024-30051](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30051) | CVSS 7.8 — High | Windows DWM heap overflow → SYSTEM-level code execution. Empirical heap spray analysis across 50 sessions: 12.9×–19× more deterministic than the theoretical model. |
-| [CVE-2024-51324](https://www.cve.org/CVERecord?id=CVE-2024-51324) | CVSS 9.5 — Critical | BYOVD via BdApiUtil64.sys. Reverse engineering uncovered three undocumented kernel primitives — including one capable of neutralizing an EDR without touching its process. |
-| CVE-2021-4034 (PwnKit) | CVSS 7.8 — High | Linux local privilege escalation — full exploit framework. |
+| [CVE-2024-51324](https://www.cve.org/CVERecord?id=CVE-2024-51324) | **CVSS 9.5 — Critical** | BYOVD via BdApiUtil64.sys. Three undocumented kernel primitives — including one capable of neutralizing an EDR without touching its process. |
+| [CVE-2021-4034](https://www.cve.org/CVERecord?id=CVE-2021-4034) (PwnKit) | CVSS 7.8 — High | Linux local privilege escalation — full exploit framework. |
 
 ---
 
@@ -28,13 +30,13 @@ Santiago, Chile · me@deviannt.com
 **MSc Thesis — "Analysis, Management and Exploit Development for N-Day Vulnerabilities and Threats"**  
 Grade: 100/100 · UCAM + Campus Internacional de Ciberseguridad · 2025
 
-Original exploit development beyond existing public PoCs for four CVEs spanning: modern web applications, Linux kernel, Windows desktop, and Windows kernel drivers.
+Original exploit development beyond existing public PoCs across modern web, Linux kernel, Windows desktop, and Windows kernel drivers. Includes empirical heap spray analysis of CVE-2024-30051 across 50 sessions: 12.9×–19× more deterministic than the theoretical model.
 
 ---
 
 ## Tools
 
-- **[react2shell](https://github.com/devianntsec/CVE-2025-55182)** — Multi-payload exploit framework for CVE-2025-55182. Vectors: RCE, interactive reverse shell, exfiltration, defacement, shutdown, integrity bypass.
+**[react2shell](https://github.com/devianntsec/CVE-2025-55182)** — Exploit framework for CVE-2025-55182. Vectors: RCE, reverse shell, exfiltration, defacement, shutdown, integrity bypass.
 
 ---
 
@@ -49,6 +51,4 @@ Platforms     Windows kernel · Linux kernel · Node.js runtime
 
 ---
 
-## Links
-
-[deviannt.com](https://deviannt.com) · [blog.deviannt.com](https://blog.deviannt.com) · [links.deviannt.com](https://links.deviannt.com) · [@devianntsec](https://github.com/devianntsec)
+[deviannt.com](https://deviannt.com) · [blog.deviannt.com](https://blog.deviannt.com) · [links.deviannt.com](https://links.deviannt.com) · [@devianntsec](https://github.com/devianntsec) · me@deviannt.com
