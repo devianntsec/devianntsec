@@ -1,0 +1,291 @@
+<svg width="100%" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>deviannt — Offensive Security Engineer</title>
+<desc>GitHub profile header with side wave (scale+opacity, fixed origin), static title, and typewriting subtitle - full height grid</desc>
+<defs>
+  <style>
+    @keyframes typing {
+      from { clip-path: inset(0 100% 0 0); }
+      to   { clip-path: inset(0 0% 0 0); }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50%      { opacity: 0; }
+    }
+    @keyframes waveCell {
+      0%   { transform: scale(0.15); opacity: 0.05; }
+      50%  { transform: scale(0.95); opacity: 0.85; }
+      100% { transform: scale(0.15); opacity: 0.05; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes highlightGrow {
+      from { width: 0; }
+      to   { width: 490px; }
+    }
+    @keyframes selectorRightMove {
+      from { transform: translateX(0); }
+      to   { transform: translateX(490px); }
+    }
+    @keyframes cursorMove {
+      from { x: 262px; }
+      to   { x: 638px; }
+    }
+    .bg { fill: #000000; }
+    .cell {
+      fill: #3B82F6;
+      animation: waveCell 4s ease-in-out infinite;
+      animation-fill-mode: backwards;
+    }
+    .title-text {
+      font-family: 'Courier New', monospace;
+      font-weight: 900;
+      font-size: 88px;
+      fill: #E2E8F0;
+      letter-spacing: -6px;
+    }
+    .highlight-rect {
+      fill: rgba(59, 130, 246, 0.30);
+      x: 205px;
+      y: 101px;
+      height: 82px;
+      rx: 2px;
+      animation: highlightGrow 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+    .selector-left {
+      stroke: #3B82F6;
+      stroke-width: 5;
+      stroke-linecap: round;
+    }
+    .selector-left-circle {
+      fill: #3B82F6;
+    }
+    .selector-right-container {
+      animation: selectorRightMove 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+    .selector-right {
+      stroke: #3B82F6;
+      stroke-width: 5;
+      stroke-linecap: round;
+    }
+    .selector-right-circle {
+      fill: #3B82F6;
+    }
+    .subtitle-text {
+      font-family: 'Courier New', monospace;
+      font-weight: 400;
+      font-size: 16px;
+      fill: #60A5FA;
+      letter-spacing: 3px;
+    }
+    .subtitle-clip {
+      clip-path: inset(0 100% 0 0);
+      animation: typing 2.2s steps(27, end) 0.6s forwards;
+    }
+    .cursor {
+      fill: #60A5FA;
+      animation: cursorMove 2.2s steps(27, end) 0.6s forwards,
+                 blink 0.85s step-end infinite 2.8s;
+    }
+    .tag-text {
+      font-family: 'Courier New', monospace;
+      font-size: 12px;
+      fill: #475569;
+      letter-spacing: 1.5px;
+      opacity: 0;
+      animation: fadeIn 0.6s ease 3s forwards;
+    }
+  </style>
+</defs>
+
+<rect width="900" height="280" fill="#000000"/>
+
+<!-- ========== LADO IZQUIERDO (5 columnas, 16 filas: y=0,18,36,54,72,90,108,126,144,162,180,198,216,234,252,266) ========== -->
+<g>
+  <!-- Columna x=0 (delay 0.0s) -->
+  <rect x="0"  y="0"   width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 7px;"/>
+  <rect x="0"  y="18"  width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 25px;"/>
+  <rect x="0"  y="36"  width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 43px;"/>
+  <rect x="0"  y="54"  width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 61px;"/>
+  <rect x="0"  y="72"  width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 79px;"/>
+  <rect x="0"  y="90"  width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 97px;"/>
+  <rect x="0"  y="108" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 115px;"/>
+  <rect x="0"  y="126" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 133px;"/>
+  <rect x="0"  y="144" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 151px;"/>
+  <rect x="0"  y="162" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 169px;"/>
+  <rect x="0"  y="180" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 187px;"/>
+  <rect x="0"  y="198" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 205px;"/>
+  <rect x="0"  y="216" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 223px;"/>
+  <rect x="0"  y="234" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 241px;"/>
+  <rect x="0"  y="252" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 259px;"/>
+  <rect x="0"  y="266" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 273px;"/> <!-- Nueva fila inferior -->
+
+  <!-- Columna x=18 (delay 0.2s) -->
+  <rect x="18" y="0"   width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 7px;"/>
+  <rect x="18" y="18"  width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 25px;"/>
+  <rect x="18" y="36"  width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 43px;"/>
+  <rect x="18" y="54"  width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 61px;"/>
+  <rect x="18" y="72"  width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 79px;"/>
+  <rect x="18" y="90"  width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 97px;"/>
+  <rect x="18" y="108" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 115px;"/>
+  <rect x="18" y="126" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 133px;"/>
+  <rect x="18" y="144" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 151px;"/>
+  <rect x="18" y="162" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 169px;"/>
+  <rect x="18" y="180" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 187px;"/>
+  <rect x="18" y="198" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 205px;"/>
+  <rect x="18" y="216" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 223px;"/>
+  <rect x="18" y="234" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 241px;"/>
+  <rect x="18" y="252" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 259px;"/>
+  <rect x="18" y="266" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 273px;"/>
+
+  <!-- Columna x=36 (delay 0.4s) -->
+  <rect x="36" y="0"   width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 7px;"/>
+  <rect x="36" y="18"  width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 25px;"/>
+  <rect x="36" y="36"  width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 43px;"/>
+  <rect x="36" y="54"  width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 61px;"/>
+  <rect x="36" y="72"  width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 79px;"/>
+  <rect x="36" y="90"  width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 97px;"/>
+  <rect x="36" y="108" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 115px;"/>
+  <rect x="36" y="126" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 133px;"/>
+  <rect x="36" y="144" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 151px;"/>
+  <rect x="36" y="162" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 169px;"/>
+  <rect x="36" y="180" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 187px;"/>
+  <rect x="36" y="198" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 205px;"/>
+  <rect x="36" y="216" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 223px;"/>
+  <rect x="36" y="234" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 241px;"/>
+  <rect x="36" y="252" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 259px;"/>
+  <rect x="36" y="266" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 273px;"/>
+
+  <!-- Columna x=54 (delay 0.6s) -->
+  <rect x="54" y="0"   width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 7px;"/>
+  <rect x="54" y="18"  width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 25px;"/>
+  <rect x="54" y="36"  width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 43px;"/>
+  <rect x="54" y="54"  width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 61px;"/>
+  <rect x="54" y="72"  width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 79px;"/>
+  <rect x="54" y="90"  width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 97px;"/>
+  <rect x="54" y="108" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 115px;"/>
+  <rect x="54" y="126" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 133px;"/>
+  <rect x="54" y="144" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 151px;"/>
+  <rect x="54" y="162" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 169px;"/>
+  <rect x="54" y="180" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 187px;"/>
+  <rect x="54" y="198" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 205px;"/>
+  <rect x="54" y="216" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 223px;"/>
+  <rect x="54" y="234" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 241px;"/>
+  <rect x="54" y="252" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 259px;"/>
+  <rect x="54" y="266" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 273px;"/>
+
+  <!-- Columna x=72 (delay 0.8s) -->
+  <rect x="72" y="0"   width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 7px;"/>
+  <rect x="72" y="18"  width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 25px;"/>
+  <rect x="72" y="36"  width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 43px;"/>
+  <rect x="72" y="54"  width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 61px;"/>
+  <rect x="72" y="72"  width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 79px;"/>
+  <rect x="72" y="90"  width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 97px;"/>
+  <rect x="72" y="108" width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 115px;"/>
+  <rect x="72" y="126" width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 133px;"/>
+  <rect x="72" y="144" width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 151px;"/>
+  <rect x="72" y="162" width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 169px;"/>
+  <rect x="72" y="180" width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 187px;"/>
+  <rect x="72" y="198" width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 205px;"/>
+  <rect x="72" y="216" width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 223px;"/>
+  <rect x="72" y="234" width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 241px;"/>
+  <rect x="72" y="252" width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 259px;"/>
+  <rect x="72" y="266" width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 273px;"/>
+</g>
+
+<!-- ========== LADO DERECHO (4 columnas, 16 filas) ========== -->
+<g>
+  <!-- Columna x=882 (delay 0.0s) -->
+  <rect x="882" y="0"   width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 7px;"/>
+  <rect x="882" y="18"  width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 25px;"/>
+  <rect x="882" y="36"  width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 43px;"/>
+  <rect x="882" y="54"  width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 61px;"/>
+  <rect x="882" y="72"  width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 79px;"/>
+  <rect x="882" y="90"  width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 97px;"/>
+  <rect x="882" y="108" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 115px;"/>
+  <rect x="882" y="126" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 133px;"/>
+  <rect x="882" y="144" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 151px;"/>
+  <rect x="882" y="162" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 169px;"/>
+  <rect x="882" y="180" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 187px;"/>
+  <rect x="882" y="198" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 205px;"/>
+  <rect x="882" y="216" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 223px;"/>
+  <rect x="882" y="234" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 241px;"/>
+  <rect x="882" y="252" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 259px;"/>
+  <rect x="882" y="266" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 273px;"/>
+
+  <!-- Columna x=864 (delay 0.2s) -->
+  <rect x="864" y="0"   width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 7px;"/>
+  <rect x="864" y="18"  width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 25px;"/>
+  <rect x="864" y="36"  width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 43px;"/>
+  <rect x="864" y="54"  width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 61px;"/>
+  <rect x="864" y="72"  width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 79px;"/>
+  <rect x="864" y="90"  width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 97px;"/>
+  <rect x="864" y="108" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 115px;"/>
+  <rect x="864" y="126" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 133px;"/>
+  <rect x="864" y="144" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 151px;"/>
+  <rect x="864" y="162" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 169px;"/>
+  <rect x="864" y="180" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 187px;"/>
+  <rect x="864" y="198" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 205px;"/>
+  <rect x="864" y="216" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 223px;"/>
+  <rect x="864" y="234" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 241px;"/>
+  <rect x="864" y="252" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 259px;"/>
+  <rect x="864" y="266" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 273px;"/>
+
+  <!-- Columna x=846 (delay 0.4s) -->
+  <rect x="846" y="0"   width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 7px;"/>
+  <rect x="846" y="18"  width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 25px;"/>
+  <rect x="846" y="36"  width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 43px;"/>
+  <rect x="846" y="54"  width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 61px;"/>
+  <rect x="846" y="72"  width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 79px;"/>
+  <rect x="846" y="90"  width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 97px;"/>
+  <rect x="846" y="108" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 115px;"/>
+  <rect x="846" y="126" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 133px;"/>
+  <rect x="846" y="144" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 151px;"/>
+  <rect x="846" y="162" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 169px;"/>
+  <rect x="846" y="180" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 187px;"/>
+  <rect x="846" y="198" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 205px;"/>
+  <rect x="846" y="216" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 223px;"/>
+  <rect x="846" y="234" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 241px;"/>
+  <rect x="846" y="252" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 259px;"/>
+  <rect x="846" y="266" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 273px;"/>
+
+  <!-- Columna x=828 (delay 0.6s) -->
+  <rect x="828" y="0"   width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 7px;"/>
+  <rect x="828" y="18"  width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 25px;"/>
+  <rect x="828" y="36"  width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 43px;"/>
+  <rect x="828" y="54"  width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 61px;"/>
+  <rect x="828" y="72"  width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 79px;"/>
+  <rect x="828" y="90"  width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 97px;"/>
+  <rect x="828" y="108" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 115px;"/>
+  <rect x="828" y="126" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 133px;"/>
+  <rect x="828" y="144" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 151px;"/>
+  <rect x="828" y="162" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 169px;"/>
+  <rect x="828" y="180" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 187px;"/>
+  <rect x="828" y="198" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 205px;"/>
+  <rect x="828" y="216" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 223px;"/>
+  <rect x="828" y="234" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 241px;"/>
+  <rect x="828" y="252" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 259px;"/>
+  <rect x="828" y="266" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 273px;"/>
+</g>
+
+<!-- ========== CONTENIDO CENTRAL ========== -->
+<g>
+  <rect class="highlight-rect" rx="2"/>
+  
+  <line class="selector-left" x1="205" y1="101" x2="205" y2="183"/>
+  <circle class="selector-left-circle" cx="205" cy="101" r="9"/>
+  
+  <g class="selector-right-container">
+    <line class="selector-right" x1="205" y1="101" x2="205" y2="183"/>
+    <circle class="selector-right-circle" cx="205" cy="183" r="9"/>
+  </g>
+  
+  <text class="title-text" x="450" y="162" text-anchor="middle">⠀DEVIANNT⠀</text>
+</g>
+
+<text class="subtitle-text subtitle-clip" x="450" y="207" text-anchor="middle">Offensive Security Engineer</text>
+<rect class="cursor" x="262" y="194" width="2" height="18" rx="1"/>
+
+<text class="tag-text"  x="450" y="234" text-anchor="middle">// vuln research · reverse engineering · exploit dev · red team</text>
+</svg>
