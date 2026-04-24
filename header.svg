@@ -1,8 +1,11 @@
 <svg width="100%" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" role="img">
 <title>deviannt — Offensive Security Engineer</title>
-<desc>GitHub profile header with side wave (scale+opacity, fixed origin), static title, and typewriting subtitle - full height grid</desc>
+<desc>GitHub profile header with side wave, custom fonts (Azeret Mono / JetBrains Mono), static title highlight, and typewriting subtitle</desc>
 <defs>
+  <!-- Importación de fuentes personalizadas (similares a las de la web) -->
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;900&amp;family=JetBrains+Mono:wght@200;400;500&amp;display=swap');
+
     @keyframes typing {
       from { clip-path: inset(0 100% 0 0); }
       to   { clip-path: inset(0 0% 0 0); }
@@ -39,7 +42,7 @@
       animation-fill-mode: backwards;
     }
     .title-text {
-      font-family: 'Courier New', monospace;
+      font-family: 'Azeret Mono', monospace;
       font-weight: 900;
       font-size: 88px;
       fill: #E2E8F0;
@@ -73,7 +76,7 @@
       fill: #3B82F6;
     }
     .subtitle-text {
-      font-family: 'Courier New', monospace;
+      font-family: 'JetBrains Mono', monospace;
       font-weight: 400;
       font-size: 16px;
       fill: #60A5FA;
@@ -89,7 +92,7 @@
                  blink 0.85s step-end infinite 2.8s;
     }
     .tag-text {
-      font-family: 'Courier New', monospace;
+      font-family: 'JetBrains Mono', monospace;
       font-size: 12px;
       fill: #475569;
       letter-spacing: 1.5px;
@@ -101,9 +104,9 @@
 
 <rect width="900" height="280" fill="#000000"/>
 
-<!-- ========== LADO IZQUIERDO (5 columnas, 16 filas: y=0,18,36,54,72,90,108,126,144,162,180,198,216,234,252,266) ========== -->
+<!-- ========== LADO IZQUIERDO (5 columnas, 16 filas) ========== -->
 <g>
-  <!-- Columna x=0 (delay 0.0s) -->
+  <!-- Columna x=0 delay 0.0s -->
   <rect x="0"  y="0"   width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 7px;"/>
   <rect x="0"  y="18"  width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 25px;"/>
   <rect x="0"  y="36"  width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 43px;"/>
@@ -119,9 +122,9 @@
   <rect x="0"  y="216" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 223px;"/>
   <rect x="0"  y="234" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 241px;"/>
   <rect x="0"  y="252" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 259px;"/>
-  <rect x="0"  y="266" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 273px;"/> <!-- Nueva fila inferior -->
+  <rect x="0"  y="266" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 7px 273px;"/>
 
-  <!-- Columna x=18 (delay 0.2s) -->
+  <!-- Columna x=18 delay 0.2s -->
   <rect x="18" y="0"   width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 7px;"/>
   <rect x="18" y="18"  width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 25px;"/>
   <rect x="18" y="36"  width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 43px;"/>
@@ -139,7 +142,7 @@
   <rect x="18" y="252" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 259px;"/>
   <rect x="18" y="266" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 25px 273px;"/>
 
-  <!-- Columna x=36 (delay 0.4s) -->
+  <!-- Columna x=36 delay 0.4s -->
   <rect x="36" y="0"   width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 7px;"/>
   <rect x="36" y="18"  width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 25px;"/>
   <rect x="36" y="36"  width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 43px;"/>
@@ -157,7 +160,7 @@
   <rect x="36" y="252" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 259px;"/>
   <rect x="36" y="266" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 43px 273px;"/>
 
-  <!-- Columna x=54 (delay 0.6s) -->
+  <!-- Columna x=54 delay 0.6s -->
   <rect x="54" y="0"   width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 7px;"/>
   <rect x="54" y="18"  width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 25px;"/>
   <rect x="54" y="36"  width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 43px;"/>
@@ -175,7 +178,7 @@
   <rect x="54" y="252" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 259px;"/>
   <rect x="54" y="266" width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 61px 273px;"/>
 
-  <!-- Columna x=72 (delay 0.8s) -->
+  <!-- Columna x=72 delay 0.8s -->
   <rect x="72" y="0"   width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 7px;"/>
   <rect x="72" y="18"  width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 25px;"/>
   <rect x="72" y="36"  width="14" height="14" class="cell" style="animation-delay:0.80s; transform-origin: 79px 43px;"/>
@@ -196,7 +199,7 @@
 
 <!-- ========== LADO DERECHO (4 columnas, 16 filas) ========== -->
 <g>
-  <!-- Columna x=882 (delay 0.0s) -->
+  <!-- Columna x=882 delay 0.0s -->
   <rect x="882" y="0"   width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 7px;"/>
   <rect x="882" y="18"  width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 25px;"/>
   <rect x="882" y="36"  width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 43px;"/>
@@ -214,7 +217,7 @@
   <rect x="882" y="252" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 259px;"/>
   <rect x="882" y="266" width="14" height="14" class="cell" style="animation-delay:0.00s; transform-origin: 889px 273px;"/>
 
-  <!-- Columna x=864 (delay 0.2s) -->
+  <!-- Columna x=864 delay 0.2s -->
   <rect x="864" y="0"   width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 7px;"/>
   <rect x="864" y="18"  width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 25px;"/>
   <rect x="864" y="36"  width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 43px;"/>
@@ -232,7 +235,7 @@
   <rect x="864" y="252" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 259px;"/>
   <rect x="864" y="266" width="14" height="14" class="cell" style="animation-delay:0.20s; transform-origin: 871px 273px;"/>
 
-  <!-- Columna x=846 (delay 0.4s) -->
+  <!-- Columna x=846 delay 0.4s -->
   <rect x="846" y="0"   width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 7px;"/>
   <rect x="846" y="18"  width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 25px;"/>
   <rect x="846" y="36"  width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 43px;"/>
@@ -250,7 +253,7 @@
   <rect x="846" y="252" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 259px;"/>
   <rect x="846" y="266" width="14" height="14" class="cell" style="animation-delay:0.40s; transform-origin: 853px 273px;"/>
 
-  <!-- Columna x=828 (delay 0.6s) -->
+  <!-- Columna x=828 delay 0.6s -->
   <rect x="828" y="0"   width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 7px;"/>
   <rect x="828" y="18"  width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 25px;"/>
   <rect x="828" y="36"  width="14" height="14" class="cell" style="animation-delay:0.60s; transform-origin: 835px 43px;"/>
